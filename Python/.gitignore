@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs (General y específicos)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de Antigravity (Capa de vuelo y ajustes locales)
+# Nota: Antigravity suele ser ligero, pero evitamos configuraciones locales
+.antigravity/
+gravity_settings.json
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+
+# Variables de entorno (¡Súper importante!)
+.env
